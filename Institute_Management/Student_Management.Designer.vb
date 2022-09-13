@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Student_Management
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Student_Management
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
@@ -46,7 +46,7 @@ Partial Class Student_Management
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(396, 56)
+        Me.TextBox1.Location = New System.Drawing.Point(396, 46)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(227, 31)
         Me.TextBox1.TabIndex = 0
@@ -60,14 +60,14 @@ Partial Class Student_Management
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(396, 147)
+        Me.TextBox3.Location = New System.Drawing.Point(396, 163)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(227, 31)
         Me.TextBox3.TabIndex = 2
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(396, 198)
+        Me.TextBox4.Location = New System.Drawing.Point(396, 224)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(227, 31)
         Me.TextBox4.TabIndex = 3
@@ -75,7 +75,7 @@ Partial Class Student_Management
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(282, 62)
+        Me.Label1.Location = New System.Drawing.Point(297, 46)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(93, 25)
         Me.Label1.TabIndex = 4
@@ -84,7 +84,7 @@ Partial Class Student_Management
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(305, 104)
+        Me.Label2.Location = New System.Drawing.Point(311, 104)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(70, 25)
         Me.Label2.TabIndex = 5
@@ -93,7 +93,7 @@ Partial Class Student_Management
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(291, 147)
+        Me.Label3.Location = New System.Drawing.Point(297, 169)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(84, 25)
         Me.Label3.TabIndex = 6
@@ -102,7 +102,7 @@ Partial Class Student_Management
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(270, 195)
+        Me.Label4.Location = New System.Drawing.Point(276, 224)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(105, 25)
         Me.Label4.TabIndex = 7
@@ -127,7 +127,7 @@ Partial Class Student_Management
         Me.Button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
         Me.Button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Location = New System.Drawing.Point(0, 195)
+        Me.Button4.Location = New System.Drawing.Point(0, 186)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(151, 34)
         Me.Button4.TabIndex = 12
@@ -140,7 +140,7 @@ Partial Class Student_Management
         Me.Button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
         Me.Button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Location = New System.Drawing.Point(0, 138)
+        Me.Button3.Location = New System.Drawing.Point(0, 80)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(151, 34)
         Me.Button3.TabIndex = 11
@@ -153,7 +153,7 @@ Partial Class Student_Management
         Me.Button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
         Me.Button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Location = New System.Drawing.Point(0, 81)
+        Me.Button2.Location = New System.Drawing.Point(0, 138)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(151, 34)
         Me.Button2.TabIndex = 10
@@ -212,9 +212,9 @@ Partial Class Student_Management
         'Label5
         '
         Me.Label5.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.Label5.Location = New System.Drawing.Point(437, 312)
+        Me.Label5.Location = New System.Drawing.Point(415, 312)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(113, 38)
+        Me.Label5.Size = New System.Drawing.Size(153, 38)
         Me.Label5.TabIndex = 13
         '
         'Button9
@@ -223,7 +223,7 @@ Partial Class Student_Management
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(112, 34)
         Me.Button9.TabIndex = 14
-        Me.Button9.Text = "End"
+        Me.Button9.Text = "Next"
         Me.Button9.UseVisualStyleBackColor = True
         '
         'Student_Management
